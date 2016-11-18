@@ -114,13 +114,6 @@ var modifiers = [
 		'types':['upgrade']
 	},
 	{
-		'id':'no-armor-upgrades',
-		'name':'No Armor Upgrades',
-		'difficulty':2,
-		'description':'',
-		'types':['upgrade', 'naked']
-	},
-	{
 		'id':'no-healing',
 		'name':'No Healing',
 		'difficulty':16,
@@ -147,13 +140,6 @@ var modifiers = [
 		'difficulty':16,
 		'description':'',
 		'types':['behaviour']
-	},
-	{
-		'id':'no-master-key',
-		'name':'No Master Key',
-		'difficulty':2,
-		'description':'',
-		'types':['item']
 	},
 	{
 		'id':'no-leveling',
@@ -198,10 +184,10 @@ var modifiers = [
 		'types':['class']
 	},
 	{
-		'id':'wanderer',
-		'name':'Class: Wanderer',
+		'id':'wizard',
+		'name':'Class: Wizard',
 		'difficulty':2,
-		'description':'Start your character as Wanderer.',
+		'description':'Start your character as Wizard.',
 		'types':['class']
 	},
 	{
@@ -212,24 +198,24 @@ var modifiers = [
 		'types':['class']
 	},
 	{
-		'id':'bandit',
-		'name':'Class: Bandit',
+		'id':'assassin',
+		'name':'Class: Assassin',
 		'difficulty':2,
-		'description':'Start your character as Bandit.',
+		'description':'Start your character as Assassin.',
 		'types':['class']
 	},
 	{
-		'id':'hunter',
-		'name':'Class: Hunter',
+		'id':'heraul',
+		'name':'Class: Herault',
 		'difficulty':2,
-		'description':'Start your character as Hunter.',
+		'description':'Start your character as Herault.',
 		'types':['class']
 	},
 	{
-		'id':'sorcerer',
-		'name':'Class: Sorcerer',
+		'id':'mercenary',
+		'name':'Class: Mercenary',
 		'difficulty':2,
-		'description':'Start your character as Sorcerer.',
+		'description':'Start your character as Mercenary.',
 		'types':['class']
 	},
 	{
@@ -374,7 +360,7 @@ var modifiers = [
 	},
 	{
 		'id':'gauntlets',
-		'name':'Weapon Type: Gauntlets',
+		'name':'Weapon Type: Fists & Claws',
 		'difficulty':8,
 		'description':'You may use only this type of weapon in your right hand.',
 		'types':['rhw']
@@ -394,6 +380,13 @@ var modifiers = [
 		'types':['rhw']
 	},
 	{
+		'id':'greatbows',
+		'name':'Weapon Type: Greatbows',
+		'difficulty':8,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
 		'id':'crossbows',
 		'name':'Weapon Type: Crossbows',
 		'difficulty':4,
@@ -401,8 +394,8 @@ var modifiers = [
 		'types':['rhw']
 	},
 	{
-		'id':'catalysts',
-		'name':'Weapon Type: Catalysts',
+		'id':'staves',
+		'name':'Weapon Type: Staves',
 		'difficulty':4,
 		'description':'You may use only this type of weapon in your right hand.',
 		'types':['rhw']
@@ -418,6 +411,41 @@ var modifiers = [
 		'id':'pyro-flame',
 		'name':'Weapon Type: Pyromancy Flame',
 		'difficulty':4,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
+		'id':'sacred-chimes',
+		'name':'Weapon Type: Sacred Chimes',
+		'difficulty':4,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
+		'id':'small-shields',
+		'name':'Weapon Type: Small Shields',
+		'difficulty':10,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
+		'id':'standard-shields',
+		'name':'Weapon Type: Standard Shields',
+		'difficulty':10,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
+		'id':'greatshields',
+		'name':'Weapon Type: Greatshields',
+		'difficulty':10,
+		'description':'You may use only this type of weapon in your right hand.',
+		'types':['rhw']
+	},
+	{
+		'id':'torches',
+		'name':'Weapon Type: Torches',
+		'difficulty':12,
 		'description':'You may use only this type of weapon in your right hand.',
 		'types':['rhw']
 	}
